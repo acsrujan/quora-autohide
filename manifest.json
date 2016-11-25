@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+	
+    "name": "Quora autohide",
+    "description": "Hide few sections on quora",
+    "version": "0.1",
+
+    "permissions": [
+        "activeTab"
+    ],	
+    "content_scripts": [
+        {
+            "matches": ["https://*.quora.com/*"],
+            "js": ["lib/jquery.min.js", "main.js"],
+            "run_at": "document_start"
+        }
+    ]
+}
