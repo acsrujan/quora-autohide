@@ -1,3 +1,8 @@
+### Deprecation Notice
+
+Well, I've decided to quit Quora instead of maintaining this.. :D
+
+
 Quora Auto Hide Content
 ====
 
